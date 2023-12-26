@@ -141,7 +141,7 @@ a {
   margin: 20px 0;
 }
 .sidebar-profile-info ul li {
-  width: 200%;
+  width: 100%;
   margin: 5px 0;
   font-size: 13px;
 }
@@ -150,11 +150,155 @@ a {
   color: #045be6;
 }
 
+.sidebar-profile-link {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+
+.sidebar-profile-link a {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  font-size: 13px;
+  border-left: 1px solid #ccc;
+}
+
+.sidebar-profile-link a:first-child {
+  border-left: 0;
+}
+.sidebar-profile-link a img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.sidebar-activity {
+  background: #fff;
+  padding: 5px 25px;
+  margin: 12px 0;
+}
+.sidebar-activity h3 {
+  color: #777;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+
+.sidebar-activity a {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #888;
+  margin: 3px 0;
+}
+
+.sidebar-activity a img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.discover-more-links {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: -25px;
+  margin-left: -25px;
+}
+.discover-more-links a {
+  color: #045be6;
+  display: inline-block;
+  margin: 10px 0;
+}
+
 /* ------- right sidebar ------  */
 
 .right-sidebar {
   flex-basis: 25%;
   align-self: flex-start;
+}
+
+.sidebar-news {
+  background: #fff;
+  padding: 10px 25px;
+}
+
+.info-icon {
+  width: 15px;
+  float: right;
+  margin-top: 15px;
+}
+
+.sidebar-news h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 10px 0 30px;
+}
+
+.sidebar-news a {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.sidebar-news span {
+  font-size: 12px;
+}
+
+.sidebar-news .read-more-link {
+  color: #045be6;
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+.sidebar-ad {
+  background: #fff;
+  padding: 15px 25px;
+  text-align: center;
+  margin: 12px 0;
+  font-size: 12px;
+}
+.sidebar-ad img {
+  width: 60px;
+  border-radius: 50%;
+  margin: 4px;
+}
+.sidebar-ad small {
+  float: right;
+  font-weight: 500;
+}
+.sidebar-ad p {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.sidebar-ad b {
+  display: block;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.ad-link {
+  display: inline-block;
+  border: 1px solid #045be6;
+  border-radius: 30px;
+  padding: 5px 15px;
+  color: #045be6;
+  font-weight: 500;
+  margin: 20px auto 10px;
+}
+.sidebar-useful-links {
+  padding: 15px 25px;
+  text-align: center;
+}
+.sidebar-useful-links a {
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
 }
 
 /* ------- main content -------  */
