@@ -47,7 +47,49 @@
       </div>
       <div class="navbar-right">
         <div class="online">
-          <img src="images/user-1.png" class="nav-profile-img" />
+          <img
+            src="images/user-1.png"
+            class="nav-profile-img"
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+      <!-- ---------- Profile-drop-down-menu--------  -->
+      <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <img src="images/user-1.png" />
+            <div>
+              <h3>Rayan Walton</h3>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <a href="#" class="profile-menu-link">
+            <img src="images/feedback.png" />
+            <p>Give Feedback</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/setting.png" />
+            <p>Settings & Privacy</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/help.png" />
+            <p>Help & Support</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/display.png" />
+            <p>Display & Accessiblity</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/logout.png" />
+            <p>Logout</p>
+            <span>></span>
+          </a>
         </div>
       </div>
     </nav>
@@ -99,7 +141,238 @@
         </div>
       </div>
       <!-- -------- Main Content ----------  -->
-      <div class="main-content"></div>
+      <div class="main-content">
+        <div class="create-post">
+          <div class="create-post-input">
+            <img src="images/user-1.png" />
+            <textarea rows="2" placeholder="Write a post"></textarea>
+          </div>
+          <div class="create-post-links">
+            <li><img src="images/photo.png" />Photo</li>
+            <li><img src="images/video.png" />Video</li>
+            <li><img src="images/event.png" />Event</li>
+            <li>Post</li>
+          </div>
+        </div>
+        <div class="sort-by">
+          <hr />
+          <p>
+            Sort by: <span>top <img src="images/down-arrow.png" alt="" /></span>
+          </p>
+        </div>
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-3.png" />
+            <div>
+              <h1>Benjamin Leo</h1>
+              <small>Founder and CEO at Gellio Group | Angel Investor</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+          <p>
+            The Success of every website depends on search engine optimisiation
+            and digital marketing startegy. if you are on first page of all
+            major search engines then you are ahead among your competitors.
+          </p>
+          <img src="images/post-image-1.png" width="100%" />
+
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbsup.png" />
+              <img src="images/love.png" />
+              <img src="images/clap.png" />
+              <span class="liked-user">Adil Ahmed and 75 others</span>
+            </div>
+            <div>
+              <span>22 comments &middot; 40 shares </span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user-icon" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-4.png" />
+            <div>
+              <h1>Clarance George</h1>
+              <small>Founder and CEO at Gellio Group | Angel Investor</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+          <p>
+            The Success of every website depends on search engine optimisiation
+            and digital marketing startegy. if you are on first page of all
+            major search engines then you are ahead among your competitors.
+          </p>
+          <img src="images/post-image-2.png" width="100%" />
+
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbsup.png" />
+              <img src="images/love.png" />
+              <img src="images/clap.png" />
+              <span class="liked-user">Adil Ahmed and 75 others</span>
+            </div>
+            <div>
+              <span>22 comments &middot; 40 shares </span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user-icon" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-4.png" />
+            <div>
+              <h1>Clarance George</h1>
+              <small>Founder and CEO at Gellio Group | Angel Investor</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+          <p>
+            The Success of every website depends on search engine optimisiation
+            and digital marketing startegy. if you are on first page of all
+            major search engines then you are ahead among your competitors.
+          </p>
+          <img src="images/post-image-3.png" width="100%" />
+
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbsup.png" />
+              <img src="images/love.png" />
+              <img src="images/clap.png" />
+              <span class="liked-user">Adil Ahmed and 75 others</span>
+            </div>
+            <div>
+              <span>22 comments &middot; 40 shares </span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user-icon" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-4.png" />
+            <div>
+              <h1>Clarance George</h1>
+              <small>Founder and CEO at Gellio Group | Angel Investor</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+          <p>
+            The Success of every website depends on search engine optimisiation
+            and digital marketing startegy. if you are on first page of all
+            major search engines then you are ahead among your competitors.
+          </p>
+          <img src="images/post-image-4.png" width="100%" />
+
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbsup.png" />
+              <img src="images/love.png" />
+              <img src="images/clap.png" />
+              <span class="liked-user">Adil Ahmed and 75 others</span>
+            </div>
+            <div>
+              <span>22 comments &middot; 40 shares </span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user-icon" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- ----------- Right Sidebar -------  -->
       <div class="right-sidebar">
         <div class="sidebar-news">
@@ -140,8 +413,14 @@
           <a href="#">Advertising</a>
           <a href="#">Get the App</a>
           <a href="#">More</a>
+
+          <div class="copyright-msg">
+            <img src="images/logo.png" />
+            <p>Linkedin &#169; 2023. All right reserved</p>
+          </div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
